@@ -2,7 +2,7 @@
   "name": "red",
   "version": "1.0.0",
   "description": "有空过来写个简历",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest"
   },

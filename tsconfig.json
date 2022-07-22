@@ -17,6 +17,6 @@
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "types": ["jest", "node"]
   },
-  "include": ["src", "test"],
+  "include": ["src", "test", "app.js"],
   "exclude": ["node_modules"]
 }
