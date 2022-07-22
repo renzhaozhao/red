@@ -1,6 +1,19 @@
-# github-test
-有空过来写个简历
+# Red
 
-这是dev分支eeeeee
+Renzhao Encryption and decryption
 
-asasa
+## AES
+
+对称加密
+
+## RSA
+
+非对称加密
+
+## Gzip
+
+压缩
+
+## PBKDF2
+
+单方向加密密钥

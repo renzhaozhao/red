@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "noEmit": true,
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "types": ["jest", "node"]
+  },
+  "include": ["src", "test"],
+  "exclude": ["node_modules"]
+}
