@@ -1,7 +1,7 @@
 {
   "name": "red",
   "version": "1.0.0",
-  "description": "有空过来写个简历",
+  "description": "加解密",
   "main": "app.js",
   "scripts": {
     "prebuild": "rm -rf lib",
