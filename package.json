@@ -2,7 +2,7 @@
   "name": "red",
   "version": "1.0.0",
   "description": "加解密",
-  "main": "src/app.ts",
+  "main": "lib/index.js",
   "scripts": {
     "start": "ts-node src/app.ts",
     "prebuild": "rm -rf lib",

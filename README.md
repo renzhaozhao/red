@@ -2,9 +2,25 @@
 
 Renzhao Encryption and decryption
 
+# Runtime
+
+```sh
+npm start
+```
+
+# API
+
 ## AES
 
 对称加密
+
+```ts
+const target = 'hello'
+const AESKey = randomBytes(32)
+const IV = randomBytes(16)
+const encryptRes = AES.encrypt(target, AESKey, IV)
+console.log(encryptRes)
+```
 
 ## RSA
 
