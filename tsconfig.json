@@ -24,6 +24,10 @@
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "types": ["jest", "node"]
   },
-  "include": ["src", "test", "app.js"],
-  "exclude": ["node_modules"]
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    // Do not forget to `npm i -D tsconfig-paths`
+    "require": ["tsconfig-paths/register"]
+  }
 }

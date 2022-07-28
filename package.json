@@ -2,8 +2,9 @@
   "name": "red",
   "version": "1.0.0",
   "description": "加解密",
-  "main": "app.js",
+  "main": "src/app.ts",
   "scripts": {
+    "start": "ts-node src/app.ts",
     "prebuild": "rm -rf lib",
     "build": "tsc && tscpaths -p tsconfig.json -s ./src -o ./lib",
     "test": "jest"
@@ -19,7 +20,9 @@
   },
   "homepage": "https://github.com/renzhaozhao/red#readme",
   "dependencies": {
-    "pako": "^2.0.4"
+    "ethers": "^5.6.9",
+    "pako": "^2.0.4",
+    "tsconfig-paths": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",

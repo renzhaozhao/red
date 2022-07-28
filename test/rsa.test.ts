@@ -1,4 +1,4 @@
-import { RSA } from '@/index'
+import { RSA } from '../src'
 
 import { privateKey, publicKey } from './config'
 

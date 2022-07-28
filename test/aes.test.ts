@@ -1,7 +1,15 @@
-import { AES } from '@/index'
+import { AES } from '../src'
 import { randomBytes } from 'crypto'
+import { BigNumber, ethers } from 'ethers'
 
 describe('AES加解密', () => {
+  test('test', async () => {
+    // const a = '1.555'
+    // console.log(ethers.utils.parseUnits(a, 'gwei').toString())
+    // console.log(ethers.utils.formatUnits(BigNumber.from()));
+    console.log(ethers.utils.parseUnits('0.', 18))
+  })
+
   test('normal', async () => {
     const target = 'hello'
     const AESKey = randomBytes(32)
