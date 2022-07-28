@@ -15,6 +15,8 @@ npm start
 对称加密
 
 ```ts
+import { AES } from 'red'
+
 const target = 'hello'
 const AESKey = randomBytes(32)
 const IV = randomBytes(16)
