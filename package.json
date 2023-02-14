@@ -11,7 +11,8 @@
     "test": "jest"
   },
   "files": [
-    "lib"
+    "lib",
+    "es"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
