@@ -6,6 +6,7 @@
   "scripts": {
     "start": "ts-node src/app.ts",
     "prebuild": "rm -rf lib",
+    "esm": "tsc --module esnext --outDir es && tsc-alias",
     "build": "tsc && tsc-alias",
     "test": "jest"
   },
