@@ -1,6 +1,6 @@
 # Red
 
-Renzhao Encryption and decryption
+Renzhao Encryption & decryption
 
 # Runtime
 
