@@ -1,6 +1,6 @@
 {
   "name": "@renzhao/red",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "加解密",
   "main": "lib.commonjs/index.js",
   "module": "lib.esm/index.js",
