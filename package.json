@@ -10,6 +10,7 @@
     "build": "tsc --project tsconfig.esm.json && tsc-alias",
     "build-commonjs": "tsc --project tsconfig.commonjs.json && tsc-alias",
     "build-all": "npm run build && npm run build-commonjs",
+    "build-dist": "rollup --config rollup.config.mjs",
     "test": "jest"
   },
   "files": [
