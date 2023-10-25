@@ -2,17 +2,19 @@
   "name": "@renzhao/red",
   "version": "0.0.5",
   "description": "加解密",
-  "main": "lib/index.js",
+  "main": "lib.commonjs/index.js",
+  "module": "lib.esm/index.js",
   "scripts": {
     "start": "ts-node src/app.ts",
-    "prebuild": "rm -rf lib",
-    "esm": "tsc --module esnext --outDir es && tsc-alias",
-    "build": "tsc && tsc-alias",
+    "prebuild": "rm -rf lib*",
+    "build": "tsc --project tsconfig.esm.json && tsc-alias",
+    "build-commonjs": "tsc --project tsconfig.commonjs.json && tsc-alias",
+    "build-all": "npm run build && npm run build-commonjs",
     "test": "jest"
   },
   "files": [
-    "lib",
-    "es"
+    "lib.commonjs",
+    "lib.esm"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
